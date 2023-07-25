@@ -10,6 +10,8 @@ const app = express();
 // middlewares
 app.use(express.json());
 app.use(cors());
+   // origin:"http://localhost:3000"
+    origin:"https://react-clone-295320.web.app"
 app.use(morgan("dev"));
 
 //////////////////////////////* routes *\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
